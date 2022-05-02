@@ -3,9 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'bluetooth utils'
 
-  s.description      = <<-DESC
-  bluetooth utils
-                       DESC
+  s.description      = 'bluetooth manager'
 
   s.homepage         = 'https://github.com/jianghat/apj-acsbluetooth'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
