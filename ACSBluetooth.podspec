@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ACSBluetooth'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'bluetooth utils'
 
   s.description      = 'bluetooth manager'
@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.source_files = "ACSBluetooth/*.{h}"
   s.exclude_files = ""
-  s.resources = "ACSBluetooth/*.{png,jpeg,jpg,storyboard,xib,ttf,a}"
+  s.libraries = "ACSBluetooth/*.a"
+  s.resources = "ACSBluetooth/*.{png,jpeg,jpg,storyboard,xib,ttf}"
   s.requires_arc =  true
   
 end
