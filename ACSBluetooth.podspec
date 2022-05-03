@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   s.ios.deployment_target = '12.0'
-  s.source_files = "ACSBluetooth/*.{h}"
+  s.source_files = "ACSBluetooth/*.{h, a}"
   s.exclude_files = ""
-  s.libraries = "ACSBluetooth/*.a"
   s.resources = "ACSBluetooth/*.{png,jpeg,jpg,storyboard,xib,ttf}"
   s.requires_arc =  true
   
